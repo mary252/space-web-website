@@ -1,0 +1,9 @@
+$primary-color: #0B0D17;
+$secondary-color:#D0D6F9;
+$white:#FFFFFF;
+ 
+:export {
+  primaryColor: $primary-color;
+  secondaryColor:$secondary-color;
+  whiteColor:$white;
+}
