@@ -1,0 +1,71 @@
+@import "../variables.module.scss";
+.home-bg{
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h5{
+  color: $secondary-color;
+  font-size: 42px;
+}
+
+h2{
+  font-size: 100px;
+
+}
+.description-text{
+  color: $secondary-color;
+  font-size: 20px;
+}
+.home-text{
+  font-size: 16px;
+  color: $secondary-color;
+}
+
+.tab-item{
+  // min-width: 80px;
+  cursor: pointer;
+  color: $secondary-color;
+
+}
+
+.tab-item:hover{
+  color: $secondary-color;
+  border-bottom: 2px solid #979797;
+  padding-bottom: 10px;
+}
+.tab-selected{
+  color: $white;
+  border-bottom: 2px solid $white;
+  padding-bottom: 10px;
+}
+
+.seperate-line{
+  width: 100%;
+  height: 1px;
+  background-color: #979797;
+}
+.distance-name{
+  color: $secondary-color;
+  font-size: 18px;
+}
+
+@media screen and (max-width:1050px ) and (min-width:500px) {
+  .home-bg{
+    background-image: url("../assets/home/background-home-tablet.jpg");
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .home-bg{
+    background-image: url("../assets/home/background-home-mobile.jpg");
+  }
+  h1{
+    font-size: 75px;
+  
+  }
+
+}

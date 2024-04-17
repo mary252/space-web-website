@@ -1,0 +1,66 @@
+@import "../variables.module.scss";
+.nav-div{
+  position: absolute;
+  right: 0;
+  background-color: rgb(151, 151, 151, 0.1);
+  // filter: blur(8px);
+  // -webkit-filter: blur(8px);
+  backdrop-filter: blur(50px);
+  width: 60%;
+  height: 96px;
+  display: flex;
+}
+
+.nav-item{
+  min-width: 80px;
+  cursor: pointer;
+}
+
+.nav-item:hover{
+  color: $secondary-color;
+  border-bottom: 2px solid $secondary-color;
+  padding-bottom: 30px;
+}
+.selected{
+  color: $white;
+  border-bottom: 2px solid $white;
+  padding-bottom: 30px;
+}
+
+.line{
+  background-color: #979797;
+  width: 33%;
+  opacity: 0.5;
+  height: 1px;
+  position: absolute;
+  left: 8%;
+  top: 51px;
+  z-index: 100;
+}
+
+.burger-icon {
+  position: absolute;
+  right:10%
+}
+.small-nav{
+  position: absolute;
+  right: 8%;
+  background-color: rgb(151, 151, 151, 0.1);
+  // filter: blur(8px);
+  // -webkit-filter: blur(8px);
+  backdrop-filter: blur(50px);
+  width: 60%;
+  height: 100vh;
+  // display: flex;
+  z-index: 100;
+}
+@media screen and (max-width:1050px ) and (min-width:500px) {
+  .nav-item{
+    min-width: 40px;
+   
+  }
+}
+
+@media screen and (max-width:500px) {
+ 
+}
